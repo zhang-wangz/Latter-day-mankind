@@ -1,0 +1,34 @@
+
+server:
+  tomcat:
+    uri-encoding: utf-8
+  servlet:
+    context-path: /ch
+  error:
+    path: common/error
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: person
+    password: 123456
+    url: jdbc:mysql://101.132.150.231:3306/person?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+
+
+#  freemarker:
+#    check-template-location: true
+#    charset: UTF-8
+#    cache: false
+#    content-type: text/html
+#    expose-request-attributes: false
+#    expose-session-attributes: false
+#    request-context-attribute: request
+#    suffix: .ftl
+#    template-loader-path: /templates
+
+
+
+
