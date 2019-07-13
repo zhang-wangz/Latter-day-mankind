@@ -12,7 +12,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-fw fa-plus"></i> 人类 <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
                 <li class="dropdown-header">操作</li>
-                <li><a href="/ch/person/listedit">人类列表</a></li>
+                <li><a href="/ch/person/listedit">人类编辑列表</a></li>
                 <li><a href="/ch/person/index">新增人类</a></li>
             </ul>
         </li>

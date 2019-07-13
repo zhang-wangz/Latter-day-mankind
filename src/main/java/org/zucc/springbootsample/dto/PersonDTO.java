@@ -11,6 +11,7 @@ import org.zucc.springbootsample.utils.EnumUtils;
 import javax.persistence.Column;
 import javax.persistence.Id;
 import java.sql.Timestamp;
+import java.util.List;
 
 @Data
 public class PersonDTO {
@@ -52,6 +53,7 @@ public class PersonDTO {
 
         return EnumUtils.getByCode(professionalStatus, PersonProfessionalEnums.class);
     }
+
 
 
 }

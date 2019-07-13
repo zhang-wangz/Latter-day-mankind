@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.zucc.springbootsample.dao.mapper.Weapons;
 import org.zucc.springbootsample.dto.PersonDTO;
+import org.zucc.springbootsample.enums.PersonEnums;
 import org.zucc.springbootsample.enums.PersonProfessionalEnums;
 import org.zucc.springbootsample.enums.PersonResultEnum;
 import org.zucc.springbootsample.exception.PersonException;
@@ -95,14 +96,34 @@ public class ftlPersonController {
 
         }catch (PersonException e){
             map.put("msg",e.getMessage());
-            map.put("url","/ch/person/list");
+            map.put("url","/ch/person/listedit");
             return new ModelAndView("common/error",map);
         }
 
         map.put("msg", PersonResultEnum.CANCEL_SUCCESS.getMsg());
-        map.put("url", "/ch/person/list");
+        map.put("url", "/ch/person/listedit");
         return new ModelAndView("common/success",map);
     }
+
+
+    @GetMapping("/delete")
+    public  ModelAndView delete(@RequestParam(value = "personId") String personId,
+                              Map<String, Object> map){
+        try {
+            PersonDTO personDTO = personService.findOne(personId);
+            personbaseRepository.deleteById(personDTO.getUserid());
+
+        }catch (PersonException e){
+            map.put("msg",e.getMessage());
+            map.put("url","/ch/person/listedit");
+            return new ModelAndView("common/error",map);
+        }
+
+        map.put("msg", PersonResultEnum.DELETE_SUCCESS.getMsg());
+        map.put("url", "/ch/person/listedit");
+        return new ModelAndView("common/success",map);
+    }
+
 
 
 
@@ -136,6 +157,7 @@ public class ftlPersonController {
 
         }
         map.put("personJob", EnumUtils.EnumsList(PersonProfessionalEnums.class));
+        map.put("personPersonStatus",EnumUtils.EnumsList(PersonEnums.class));
         map.put("weaponsList",weaponsList);
 
         return new ModelAndView("person/index",map);
@@ -179,7 +201,7 @@ public class ftlPersonController {
             return new ModelAndView("common/error", map);
         }
 
-        map.put("url", "/ch/person/list");
+        map.put("url", "/ch/person/listedit");
         return new ModelAndView("common/success", map);
 
     }

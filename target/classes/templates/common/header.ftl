@@ -5,4 +5,13 @@
 <#--    <link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="/ch/css/style.css">
     <link href="https://cdn.bootcss.com/bootstrap-fileinput/4.4.7/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        function alertWaring() {
+            if(confirm('确定要进行这个操作吗?')){
+                    return true;
+                }
+                return false;
+            }
+    </script>
 </head>

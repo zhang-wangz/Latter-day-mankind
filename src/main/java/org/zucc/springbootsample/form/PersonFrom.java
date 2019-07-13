@@ -6,6 +6,7 @@ import org.zucc.springbootsample.enums.PersonWeaponHaveEnum;
 
 import javax.persistence.Column;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import java.sql.Date;
 
 
@@ -19,18 +20,21 @@ public class PersonFrom {
 
     private String  Userid;
 
-//    @NotEmpty(message = "姓名不可为空")
+    @NotEmpty(message = "姓名不可为空")
     private String Name;
 
-//    @NotEmpty(message = "职业不可为空")
+    @NotNull(message = "职业不可为空")
     private Integer professionalStatus;
 
 
-//    @NotEmpty(message = "地址不可为空")
+    @NotEmpty(message = "地址不可为空")
     private String Address;
 
-//    @Column(name = "weaponsid")
+    @Column(name = "weaponsid")
     private String weaponsId;
+
+    @NotNull(message = "状态不可为空")
+    private Integer personstatus;
 
 
 }

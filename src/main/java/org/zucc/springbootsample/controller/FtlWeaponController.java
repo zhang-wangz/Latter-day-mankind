@@ -120,6 +120,7 @@ public class FtlWeaponController {
             }
 
             BeanUtils.copyProperties(weaponsForm,weapons);
+            weapons.setId(weaponsForm.getWeaponId());
             weaponService.create(weapons);
 
 

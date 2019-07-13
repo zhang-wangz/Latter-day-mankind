@@ -65,6 +65,22 @@
                         </div>
 
                         <div class="form-group">
+                            <label>人物状态</label>
+                            <select name="personstatus" class="form-control">
+
+                                <#list personPersonStatus as enumPerson>
+                                    <option value="${enumPerson.code}"
+                                            <#if (personInfo.personstatus)?? && personInfo.personstatus == enumPerson.code>
+                                                selected
+                                            </#if>
+                                    >${enumPerson.msg}
+                                    </option>
+
+                                </#list>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
                             <input hidden type="text"  name="Userid"  value="${(personInfo.userid)!''}" />
                         </div>
 

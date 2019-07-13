@@ -5,37 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14076f63-a9b2-4bcc-a9c3-f8c68b92a6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/FtlWeaponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/WeaponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/mapper/Weapons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonWeaponHaveEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/WeaponsResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/WeaponsTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/exception/WeaponExption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/WeaponsForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/repository/WeaponBaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/WeaponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/WeaponServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/weapons/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/weapons/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/FtlWeaponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/FtlWeaponController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/ftlPersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/ftlPersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonResultEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/PersonFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/PersonFrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/nav.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/nav.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/person/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/person/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/person/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/person/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/controller/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/controller/ftlPersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/controller/ftlPersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/dao/PersonDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/dao/PersonDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/dto/PersonDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/dto/PersonDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/service/impl/PersonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/zucc/springbootsample/service/impl/PersonServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/nav.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/common/nav.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/person/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/person/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/person/listedit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/person/listedit.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,58 +29,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/person/index.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/person/listedit.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/PersonServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+            <state relative-caret-position="277">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/PersonDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/header.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/PersonFrom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dto/PersonDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -149,16 +91,13 @@
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PerosnProfessionalEnums.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/person/detail.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/person/listedit.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/utils/EnumUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/personfrom.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/utils/PersonDAOconverttoDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/utils/PersonFormConvertTODTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonResultEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/exception/PersonException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/repository/PersonbaseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/utils/KeyUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/common/header.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/WeaponsStatusEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonEnums.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/WeaponsTypeEnum.java" />
@@ -169,11 +108,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/person/list.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/WeaponController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/FtlWeaponController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/mapper/Weapons.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/weapons/list.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/weapons/index.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/common/nav.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonWeaponHaveEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/PersonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/PersonService.java" />
@@ -181,10 +118,15 @@
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/WeaponService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/PersonDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/WeaponsForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/ftlPersonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/PersonFrom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/FtlWeaponController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/nav.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonResultEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dto/PersonDTO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/person/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/PersonFrom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/ftlPersonController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/header.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/person/listedit.ftl" />
       </list>
     </option>
   </component>
@@ -196,8 +138,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="71" />
+    <option name="x" value="82" />
+    <option name="y" value="65" />
     <option name="width" value="1469" />
     <option name="height" value="937" />
   </component>
@@ -437,10 +379,10 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 14 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 17 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 14 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 17 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="springbootsample" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
@@ -489,6 +431,7 @@
       <workItem from="1562982440755" duration="4372000" />
       <workItem from="1562986964428" duration="4055000" />
       <workItem from="1562992366664" duration="2247000" />
+      <workItem from="1563029236165" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;change the personmanager&quot;">
       <created>1562914179375</created>
@@ -501,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66234000" />
+    <option name="totallyTimeSpent" value="69703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,10 +456,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="71" width="1469" height="937" extended-state="0" />
+    <frame x="82" y="65" width="1469" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21583742" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2186405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -553,7 +496,7 @@
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21583742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2186405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -563,8 +506,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909784" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289941" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289941" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33964497" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.27191868" />
@@ -579,14 +522,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Codota" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="RestServices" order="10" weight="0.3293623" />
+      <window_info anchor="right" id="RestServices" order="3" weight="0.3293623" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Codota" order="6" weight="0.3293623" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout-to-restore>
   </component>
@@ -608,13 +551,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;change the personmanager&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/vo/ResultVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -702,13 +638,6 @@
         <state relative-caret-position="-26596" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/header.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/person/detail.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -790,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/utils/EnumUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/weapons/list.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -817,20 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/nav.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonProfessionalEnums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -845,37 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonEnums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonWeaponHaveEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/WeaponServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/WeaponService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,34 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/person/listedit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/mapper/Weapons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-145">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/weapons/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/FtlWeaponController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -950,10 +804,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/PersonFrom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/WeaponServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/WeaponService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/nav.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/utils/EnumUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/enums/PersonEnums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/FtlWeaponController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="122" column="51" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -962,8 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/service/impl/PersonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+        <state relative-caret-position="313">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -973,7 +885,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dao/PersonDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -982,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/dto/PersonDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="368">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -992,18 +904,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/controller/ftlPersonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="474">
+          <caret line="199" column="44" lean-forward="true" selection-start-line="199" selection-start-column="44" selection-end-line="199" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/person/index.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zucc/springbootsample/form/PersonFrom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/weapons/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/person/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="18" column="106" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/person/listedit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
